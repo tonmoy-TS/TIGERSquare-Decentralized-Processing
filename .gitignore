@@ -1,0 +1,20 @@
+# ==============================================================================
+# TIGERSquare-Decentralized-Processing — .gitignore
+# Publishes:  firmware/ (TIGERBot libraries + main sketch), docs/
+# Excludes:   MATLAB code (TIGERSquare/), third-party libraries, OS artifacts
+# ==============================================================================
+
+# ── MATLAB (not published in this release) ────────────────────────────────────
+TIGERSquare/
+
+# ── Third-party Arduino libraries (install separately — see README) ───────────
+firmware/libraries/Eigen313/
+firmware/libraries/eiquadprog/
+firmware/libraries/SimpleEspNowConnection/
+
+# ── OS and editor artifacts ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.suo
+.vs/
