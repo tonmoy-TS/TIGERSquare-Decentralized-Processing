@@ -3,7 +3,7 @@
 TIGERSquare is a low-cost indoor multi-agent robotic testbed developed at the **LSU iCORE Lab** for experimental validation of formation control algorithms. This repository contains the **ESP8266 firmware and Arduino libraries** that enable decentralized control algorithm processing on the TIGERBots, as described in:
 
 > **T. Sarker**, "Decentralized Processing for Distance-Based Formation Control," M.S. Thesis, Louisiana State University, August 2021.
-> [[Read Thesis PDF]](docs/DECENTRALIZED%20PROCESSING%20FOR%20DISTANCE%20BASED%20FORMATION%20CONTROL_Tonmoy%20Sarker_2021.pdf)
+> [[PDF]](docs/DECENTRALIZED%20PROCESSING%20FOR%20DISTANCE%20BASED%20FORMATION%20CONTROL_Tonmoy%20Sarker_2021.pdf)
 
 <img src="images/Formation_experiments.gif" alt="TIGERSquare formation control experiments">
 
@@ -71,9 +71,6 @@ Agents acquire and maintain a predefined virtual geometric shape from arbitrary 
 
 <img src="images/Formation_acquisition_results.gif" alt="TIGERSquare testbed overview">
 
-**Result:** Decentralized processing (Mode 2) achieved comparable formation quality to centralized (Mode 1), with average steady-state distance errors under 0.4 cm across all configurations.
-
----
 
 ### Formation Maneuvering
 
@@ -81,9 +78,7 @@ Agents simultaneously acquire a formation and maneuver cohesively as a virtual r
 
 <img src="images/Formation_manuevering_results.gif" alt="TIGERSquare testbed overview">
 
-**Result:** No systematic deterioration in formation performance between Modes 1 and 2 across all robot counts. 
-
-See thesis Chapter 4 for full quantitative results.
+**See thesis Chapter 4 for full quantitative results.**
 
 ---
 
@@ -180,15 +175,10 @@ Schematics and PCB design files for the TIGERBot main board are not included in 
 
 ## Acknowledgements
 
-This work was conducted under the supervision of **Dr. Marcio de Queiroz** at the LSU iCORE Lab. The centralized testbed architecture and firmware base were inspired by the open-source [Robotarium](https://www.robotarium.gatech.edu/) platform (Georgia Tech). 
-
-*Full credits to lab colleagues and collaborators will be added.*
+This work was conducted by the LSU iCORE lab students under the supervision of **Dr. Marcio de Queiroz**. The testbed architecture and firmware base were inspired by the open-source [Robotarium](https://www.robotarium.gatech.edu/) platform (Georgia Tech).
 
 ---
 
 ## Contact
 
-For questions about this work, access to the full project (MATLAB control software, hardware schematics, or experiment data), or collaboration inquiries:
-
-**Tonmoy Sarker**
-[[Website]](https://sites.google.com/view/tonmoy-sarker) &nbsp;|&nbsp; <!-- [add email] --> &nbsp;|&nbsp; [[LinkedIn]](https://www.linkedin.com/in/tonmoy-sarker/) <!-- update or remove links as needed -->
+For questions about this work, access to the full project (MATLAB control software, hardware schematics, or experiment data), or collaboration inquiries, contact: [iCORE Lab LSU](https://icorelab.github.io/index.html)
